@@ -12,7 +12,8 @@
 */
 
 $examples = [
-    'smooth-scroll'
+    'smooth-scroll',
+    'context-menu'
 ];
 
 collect($examples)->each(function ($uri) {
