@@ -1,7 +1,7 @@
 <template>
     <div class="dropdown relative">
         <div class="dropdown-trigger"
-             @click.prevetn="isOpen = ! isOpen"
+             @click.prevent="isOpen = ! isOpen"
              aria-haspopup="true"
              :aria-expanded="isOpen"
         >
